@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eaeaea; /* Change this to your desired background color */
+    height: 100vh; /* Ensure the body takes full height */
+  }
+  
+  .chat-app {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+    background-color: #fff; /* Ensure the chat background is white */
+    position: relative; /* Set relative positioning */
+  }
+  
+  .chat-container {
+    padding: 16px;
+  }
+  
+  h2 {
+    margin: 0 0 16px 0;
+  }
+  
+  .messages {
+    height: 300px;
+    overflow-y: auto;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    background-color: #fff;
+  }
+  
+  .message {
+    margin-bottom: 8px;
+  }
+  
+  .message-input {
+    display: flex;
+  }
+  
+  .message-input input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .message-input button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 8px;
+  }
+  
+  .message-input button:hover {
+    background-color: #0056b3;
+  }
+  

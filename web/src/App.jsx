@@ -7,7 +7,7 @@ import LandingPage from "./pages/landing/landingPage";
 import LoginPage from "./pages/login";
 import RegisterPage from "./pages/register";
 import PageNotImplemented from "./pages/pageEmpty";
-
+import Xpage from "./pages/message/Chat";
 import DashboardPage from "@/pages/dashboard";
 import CommonHeader from "@/Components/Header";
 
@@ -60,6 +60,10 @@ const App = () => {
         {
           path: "/about",
           element: <main>About Us</main>,
+        },
+        {
+          path : "/message",
+          element: <Xpage />
         },
         {
           path: "*",

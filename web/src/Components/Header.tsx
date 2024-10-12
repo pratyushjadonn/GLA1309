@@ -33,6 +33,9 @@ const CommonHeader = (props) => {
               <li>
                 <Link to="/register">Register</Link>
               </li>
+              <li>
+                <Link to="/message">Messages</Link>
+              </li>
             </>
           )}
 
